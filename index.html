@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href ="./assets/style.css">
+</head>
+<body>
+    <div id = "main-container">
+        <h1 id="title">Five Day Forecast</h1>
+ <nav id = "city-search">
+    <form id="form">
+        <label for="City" class="label">Search for a City:</label>
+        <input type="text" placeholder="Search" id="userInput" name="City" />
+        <button type="submit" id="searchBtn" class="btn">Search</button>
+    </form>
+ </nav> 
+ <div id ="weather">
+    <div id ="current-weather">
+        <p id="city"></p>
+        <p id="date"></p>
+    </div>
+    <p id="current-temp"></p>
+    <p id ="current-wind"></p>
+    <p id = "current-humidity"></p>
+ </div>
+<h2> Five Day Forecast</h2>
+<div id ="forecast-container">
+    <div class= "dates" id="first-date"></div>
+    <div class = "card-details" id="first-temp"></div>
+    <div class ="card-details" id = "first-wind"></div>
+    <div class = "card-details" id ="first-humidity"></div>
+</div>
+<div class = "sub-forecast">
+    <div class= "dates" id="first-date"></div>
+    <div class = "card-details" id="second-temp"></div>
+    <div class ="card-details" id = "second-wind"></div>
+    <div class = "card-details" id ="second-humidity"></div>
+</div>
+<div class = "sub-forecast">
+    <div class= "dates" id="first-date"></div>
+    <div class = "card-details" id="third-temp"></div>
+    <div class ="card-details" id = "third-wind"></div>
+    <div class = "card-details" id ="third-humidity"></div>
+</div>
+<div class = "sub-forecast">
+    <div class= "dates" id="first-date"></div>
+    <div class = "card-details" id="fourth-temp"></div>
+    <div class ="card-details" id = "fourth-wind"></div>
+    <div class = "card-details" id ="fourth-humidity"></div>
+</div>
+<div class = "sub-forecast">
+    <div class= "dates" id="first-date"></div>
+    <div class = "card-details" id="fifth-temp"></div>
+    <div class ="card-details" id = "fifth-wind"></div>
+    <div class = "card-details" id ="fifth-humidity"></div>
+</div>
+</div> 
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+    integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+    crossorigin="anonymous"></script>
+    <script src="./assets/script.js"></script> 
+</body>
+</html>

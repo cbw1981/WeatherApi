@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    background-image: linear-gradient(to right,rgb(0, 165, 220), rgb(0, 0, 83));
+    color: white;
+    padding: 10px; 
+    margin:0;
+    font-size: 4vw;
+}
+
+h2 {
+    margin:5px 0 5px 0;
+    font-size: 2vw;  
+}
+.sub-forecast {
+    background-color: darkcyan;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+.dates {
+    background-color: darkcyan;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  } */
+
+.card-details {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    /* Add any other styles as needed */
+} 
